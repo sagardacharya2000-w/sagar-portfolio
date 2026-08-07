@@ -51,6 +51,7 @@ const navbar = () => {
          </div>
 
          {/* mobile button */}
+         
          <div className='md:hidden'>
             {
                 showMenu ?
@@ -66,6 +67,45 @@ const navbar = () => {
 
           
       </div>
+
+      {/* mobile menu */}
+      {
+        showMenu && (
+            <div className="md:hidden mt-4 bg-dark-300 h-screen rounded-1g p-4 flex flex-col space-y-4 text-center justify-center">
+                <a onClick={()=>setShowMenu(!showMenu)} href="#home" className="relative text-white/80 transition duration-300 hover:text-purple group">
+                <span>Home</span>9
+            </a>
+
+            <a onClick={()=>setShowMenu(!showMenu)} href="#about" className="relative text-white/80 transition duration-300 hover:text-purple group">
+                <span>About</span>
+               
+            </a>
+
+            <a onClick={()=>setShowMenu(!showMenu)} href="#skills" className="relative text-white/80 transition duration-300 hover:text-purple group">
+                <span>Skills</span>
+                
+            </a>
+
+            <a onClick={()=>setShowMenu(!showMenu)} href="#projects" className="relative text-white/80 transition duration-300 hover:text-purple group">
+                <span>Projects</span>
+                
+            </a>
+
+            <a onClick={()=>setShowMenu(!showMenu)} href="#experience" className="relative text-white/80 transition duration-300 hover:text-purple group">
+                <span>Experience</span>
+                
+            </a>
+
+            <a onClick={()=>setShowMenu(!showMenu)} href="#contact" className="relative text-white/80 transition duration-300 hover:text-purple group">
+                <span>Contact</span>
+                
+            </a>
+
+
+            </div>
+        )
+    }
+
 
 
     </nav>
