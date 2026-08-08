@@ -31,7 +31,16 @@ const Hero = () => {
             <div className='md:w-1/2 flex justify-center'>
             <div className='relative w-64 h-64 md:w-80 md:h-80'>
             <div className='absolute inset-0 rounded-full bg-gradient-to-r from-purple to-pink animate-pulse-slow opacity-70'>
-                <motion.img className='relative rounded-full w-64 h-64 md:w-80 md:h-80 object-cover z-10 animate-float'
+                
+                <motion.img
+                 animate={{y:[0, -20, 0]}}
+                 transition={{
+                    duration: 4,
+                    repeat: Infinity,
+                    repeatType: "loop",
+                    ease: "easeInOut"
+                 }}
+                 className='relative rounded-full w-64 h-64 md:w-80 md:h-80 object-cover z-10 animate-float'
                  src={assets.profileImg} alt="profile"/>
 
             
