@@ -1,9 +1,9 @@
-import {nav} from 'framer-motion/client'
-import React, {useState} from 'react'
+
+import { useState } from 'react'
 import { FaXmark } from 'react-icons/fa6'
 import { FaBars } from 'react-icons/fa6'
 
-const navbar = () => {
+const Navbar = () => {
 
     const [showMenu, setShowMenu] = useState(false);
     
@@ -113,4 +113,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar
