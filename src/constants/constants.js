@@ -104,3 +104,47 @@ export const projects = [
         demo: "https://transcendent-concha-ed3655.netlify.app",
     },
 ]
+
+
+
+// constants.js
+
+export const experience = [
+{
+    role: "Laravel & Filament PHP Master Class",
+    company: "CodeIT / Full-Stack Training",
+    duration: "2026",
+    type: "Training / Certification",
+    description: [
+      "Completed comprehensive full-stack training covering advanced Laravel architecture, database migrations, and eloquent ORM.",
+      "Mastered building admin panels, resource management, and custom widgets using Filament PHP.",
+      "Developed end-to-end full-stack web application modules with modern security and authentication standards."
+    ],
+    skills: ["Laravel", "Filament PHP", "PHP", "MySQL", "Blade"]
+  },
+
+  {
+    role: "Laravel Developer Intern",
+    company: "CodeIT",
+    duration: "2026 - Present",
+    type: "Internship",
+    description: [
+      "Developing and maintaining full-stack web applications using the Laravel framework and PHP.",
+      "Building scalable back-office dashboards and admin controls using Filament PHP.",
+      "Designing relational database schemas using MySQL and integrating RESTful APIs."
+    ],
+    skills: ["Laravel", "Filament PHP", "PHP", "MySQL", "Git"]
+  },
+  {
+    role: "Full-Stack Web Developer",
+    company: " Independent Project",
+    duration: "2026",
+    type: "Self-Driven Project",
+    description: [
+     "Architected and built a complete Exam Management Platform from scratch using Laravel and Filament PHP.",
+      "Integrated automated payment gateway processing for course enrollments and examination fees.",
+      "Engineered multi-role authentication (Admin, Instructor, Student) with dynamic result calculation modules."
+    ],
+    skills: ["Laravel", "Filament PHP", "Payment Gateways", "JavaScript", "MySQL"]
+  }
+];

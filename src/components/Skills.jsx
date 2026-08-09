@@ -1,6 +1,6 @@
-import React from 'react'
+
 import { motion } from "framer-motion";
-import { skills } from '../constants/constants';
+import { skills } from'../constants/constants'; 
 
 
 const Skills = () => {
