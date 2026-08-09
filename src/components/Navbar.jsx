@@ -73,7 +73,7 @@ const navbar = () => {
         showMenu && (
             <div className="md:hidden mt-4 bg-dark-300 h-screen rounded-1g p-4 flex flex-col space-y-4 text-center justify-center">
                 <a onClick={()=>setShowMenu(!showMenu)} href="#home" className="relative text-white/80 transition duration-300 hover:text-purple group">
-                <span>Home</span>9
+                <span>Home</span>
             </a>
 
             <a onClick={()=>setShowMenu(!showMenu)} href="#about" className="relative text-white/80 transition duration-300 hover:text-purple group">
