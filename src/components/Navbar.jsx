@@ -55,9 +55,10 @@ const navbar = () => {
          <div className='md:hidden'>
             {
                 showMenu ?
-                 <FaBars onClick={()=>setShowMenu(!showMenu)}
-                  className="text-2xl cursor-pointer"/>:
+                 
                  <FaXmark onClick={()=>setShowMenu(!showMenu)}
+                  className="text-2xl cursor-pointer"/>:
+                  <FaBars onClick={()=>setShowMenu(!showMenu)}
                   className="text-2xl cursor-pointer"/>
             }
            
