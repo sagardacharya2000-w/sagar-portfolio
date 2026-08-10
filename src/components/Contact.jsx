@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FaMapMarkerAlt } from "react-icons/fa";
-import { FaEnvelope, FaPhone, FaGithub, FaLinkedin, FaInstagram, FaFacebook } from "react-icons/fa6";
+import { FaEnvelope, FaPhone, FaGithub, FaLinkedin, FaInstagram, FaFacebook, FaWhatsapp } from "react-icons/fa6";
 
 const Contact = () => {
   return (
@@ -132,6 +132,14 @@ const Contact = () => {
                     rel="noopener noreferrer"
                      className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-pink hover:bg-pink hover:text-white transition duration-300'>
                       <FaInstagram/>
+
+                    </a>
+
+                    <a href="https://wa.me/9779807030493"
+                  target="_blank"
+                    rel="noopener noreferrer"
+                     className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-green-300 hover:bg-green-600 hover:text-white transition duration-300'>
+                      <FaWhatsapp/>
 
                     </a>
 
